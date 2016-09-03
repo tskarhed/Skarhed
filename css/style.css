@@ -818,6 +818,10 @@ b{
     text-align: center;
 }
 
+.block{
+    display: block;
+}
+
 .impress-not-supported{
     width: 100%;
     max-width: 100%;

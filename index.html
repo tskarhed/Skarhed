@@ -56,7 +56,39 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 
     <meta property="og:description" name="description" content="Jag är en person som arbetar med webbutveckling och design. Jag lägger väldigt stort fokus på personlig utveckling; jag tackar aldrig nej till en utmaning! " />
     <meta name="author" content="Tobias Skarhed" />
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Tobias Skarhed",
+  "jobTitle": "Front End Developer",
+  "telephone": "+46 76 05 34 912",
+  "url": "http://skarhed.com",
+  "email": "tobias@skarhed.com",
+  "nationality": "Swedish",
+  "brand": [{
+  "@type": "Organization",
+     "name": "Scouterna Västmanland",
+     "url": "http://vastmanland.scout.se"
+     },
+  {
+  "@type": "Brand",
+    "name": "Wopify",
+     "url": "http://wopify.se"
+    }],
 
+    "worksFor":{
+      "name": "Wopify"
+    },
+
+    "sameAs":[
+    "https://se.linkedin.com/in/skarhed",
+    "http://vastmanland.scout.se/kontakt/person/tobias-skarhed/",
+    "http://skarhed.com"
+    ]
+   
+}
+</script>
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link href="css/style.css" rel="stylesheet" />
@@ -116,8 +148,10 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 
 
 <section id="welcome" class="step" data-z="500" data-x="0" data-y="0">
+      <blockquote>
         <h1>Changing me, myself and the world</h1>
-
+        <cite class="center tobias-skarhed block" itemprop="name">Tobias Skarhed</cite>
+        </blockquote>
         <div class="center">
           <a class="no-bg" href="https://github.com/dehrax" title="Tobias Skarhed on GitHub">
             <i class="fa fa-github" aria-hidden="true"></i>
@@ -135,7 +169,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             <i class="fa fa-stack-overflow" aria-hidden="true"></i>
           </a>
         </div>
-        <p class="center tobias-skarhed">Tobias Skarhed</p>
+       
 </section>
 
 <section id="who-I-am" data-x="0" data-y="-1000" class="step center">
@@ -143,7 +177,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
     <h2>Who I am</h2>
     <p>There are three things in life that I value highly:</p>
 
-    <div class="triforce">
+    <div class="triforce" itemprop="description">
     <section class="core-values">
     <i class="fa fa-heart" aria-hidden="true"></i>
     <h3>People </h3>
