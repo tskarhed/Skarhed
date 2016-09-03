@@ -176,6 +176,16 @@ a:focus {
     line-height: 1.5;
 }
 
+.step p{
+    font-weight: normal;
+    font-size: 16pt;
+}
+
+.step .tobias-skarhed{
+    font-weight: 100;
+    font-size: 24pt;
+}
+
 /*
     ... and we enhance the styles for impress.js.
 
@@ -856,4 +866,13 @@ img{
 
 .center{
     text-align: center;
+}
+
+
+.core-values{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 200px;
+    max-width: 100%;
+    width: 260px;
 }
